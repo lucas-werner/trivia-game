@@ -9,7 +9,7 @@ import App from './App';
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router>
+    <Router basename="/trivia-game">
       <App />
     </Router>
   </Provider>, document.getElementById('root'),
